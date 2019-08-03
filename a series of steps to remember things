@@ -1,0 +1,11 @@
+var EventType = "Anniversary"
+
+if(EventType === "Birthday"){
+console.log("This is a birthday.");
+}else if(EventType === "Holiday"){
+console.log("This is a holiday.");
+}else if(EventType === "Anniversary"){
+console.log("This is an anniversary celebration.");
+}else {
+console.log("This is a general event.");
+}
